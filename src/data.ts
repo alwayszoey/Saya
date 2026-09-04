@@ -3,7 +3,7 @@ import { DeveloperProfile, PortfolioProject, ServiceItem, SocialLink, TeamHighli
 export const servicesData: ServiceItem[] = [
   {
     title: 'บริการรับทำเว็บไซต์ครบวงจร',
-    desc: 'ดูแลคุณตั้งแต่ขั้นตอนการออกแบบ พัฒนาระบบ ไปจนถึงเปิดใช้งานจริง ด้วยเทคโนโลยีที่ทันสมัยและทีมงานมืออาชีพที่พร้อมดูแลธุรกิจคุณด้วยความจริงใจ',
+    desc: 'ดูแลตั้งแต่การออกแบบ พัฒนา จนถึงเปิดใช้งานจริง พร้อมการดูแลหลังการขายและปรับปรุงตามความต้องการ',
     priceTiers: [
       { note: 'เริ่มต้นเพียง', price: '2,000 บาท' },
       { note: 'เว็บไซต์ขนาดใหญ่', price: '15,000 บาท' }
@@ -12,7 +12,7 @@ export const servicesData: ServiceItem[] = [
   },
   {
     title: 'งานเขียน Bot ดิสคอร์ด',
-    desc: 'ทำระบบบอทดิสคอร์ด API&อื่นๆ อีกมากมายระบบดี ใช้งานได้จริงครบวงจร',
+    desc: 'พัฒนาบอท Discord ครบวงจร ติดตั้งคำสั่ง ออโตเมชัน ระบบเชื่อมต่อ API และการจัดการสิทธิ์',
     price: '100 บาท',
     showHands: false,
     splitLayout: true,
@@ -25,12 +25,12 @@ export const portfolioProjects: PortfolioProject[] = [
     title: 'HappyDonate',
     logo: '/happydonate-logo.png',
     categories: ['WEB APPLICATION', 'FINTECH', 'CREATOR ECONOMY'],
-    desc: 'ระบบโดเนทของแฮปปี้โดเนท รับเงินเข้าบัญชีโดยตรงของคุณ ค่าธรรมเนียม 0% พร้อม UI การใช้งานสวยงาม และทันสมัย ปรับแต่งหน้าตาโดเนทให้เข้ากับสไตล์ของคุณ',
+    desc: 'ระบบโดเนทสำหรับสตรีมเมอร์ รองรับการรับเงินเข้าบัญชีผู้รับโดยตรง พร้อมวิดเจ็ตแจ้งเตือนและระบบจัดการผู้บริจาค',
     features: [
       'เงินเข้าบัญชีผู้สตรีมทันที (Direct Transfer)',
       'วิดเจ็ตแจ้งเตือนและระบบอ่านข้อความอัจฉริยะ',
       'ปรับแต่งหน้าโปรไฟล์รับโดเนทได้อย่างอิสระ',
-      'ระบบAPIเช็คสลิปเช็คสลิปไม่อั้นby Zyni.DEV'
+      'ระบบ API ตรวจสอบสลิปโดย Zyni.DEV'
     ],
     slides: [
       '/portfolio/slide-6.png',
@@ -46,12 +46,12 @@ export const portfolioProjects: PortfolioProject[] = [
     title: 'Fusions',
     logo: '/fusions-logo.png',
     categories: ['WEB APPLICATION', 'LINK IN BIO', 'CREATOR TOOLS'],
-    desc: 'แพลตฟอร์มรวมลิงก์สำหรับครีเอเตอร์และธุรกิจ ปรับแต่งธีม วิดเจ็ต และ Showcase Mode ได้อิสระ ดีไซน์สวย ใช้งานง่าย ตั้งค่าจบในไม่กี่คลิก',
+    desc: 'แพลตฟอร์มรวบรวมลิงก์และวิดเจ็ตสำหรับครีเอเตอร์ ปรับธีมและฟีเจอร์ตามต้องการ ใช้งานง่ายโดยไม่ต้องเขียนโค้ด',
     features: [
       'รวมลิงก์โซเชียลและวิดเจ็ตในหน้าเดียว',
       'ปรับธีมและเอฟเฟกต์ได้ลึก',
       'เริ่มใช้ฟรี ไม่ต้องเขียนโค้ด',
-      'ระบบAPI วิตเจตเชื่อมต่อReal-time'
+      'ระบบ API วิดเจ็ตเชื่อมต่อแบบ Real-time'
     ],
     slides: [
       '/portfolio/fusions/slide-1.png',
@@ -68,7 +68,7 @@ export const portfolioProjects: PortfolioProject[] = [
     logo: '/vexzy-logo.png',
     logoSize: 'sm',
     categories: ['WEB APPLICATION', 'SAAS', 'E-COMMERCE'],
-    desc: 'แพลตฟอร์มเช่าเว็บไซต์ร้านค้าออนไลน์ สมัครและเปิดร้านบน Subdomain ได้ทันที พร้อมระบบจัดการสินค้า ออเดอร์ และการชำระเงินครบวงจร',
+    desc: 'แพลตฟอร์มเช่าเว็บไซต์ร้านค้าออนไลน์ รองรับการสร้าง Subdomain อัตโนมัติและการปรับแต่งธีมสำหรับร้านค้าแต่ละราย',
     features: [
       'เปิดร้านและสร้าง Subdomain อัตโนมัติ',
       'รองรับ PromptPay และ TrueMoney สแกนจ่าย',
@@ -91,7 +91,7 @@ export const miniProjects: PortfolioProject[] = [
   {
     title: 'Web SHOP',
     categories: ['WEB SHOP', 'E-COMMERCE', 'GAMING'],
-    desc: 'ร้านค้าออนไลน์สำหรับขายสินค้าดิจิทัล รองรับระบบเติมเงิน ค้นหาสินค้า และจัดหมวดหมู่ พร้อมหน้าร้านที่ดูทันสมัยใช้งานง่าย',
+    desc: 'ร้านค้าออนไลน์สำหรับขายสินค้าดิจิทัล รองรับระบบเติมเงิน ค้นหา และจัดการสินค้า',
     features: [
       'ระบบเติมเงินและกระเป๋าเงินผู้ใช้',
       'ค้นหาและจัดหมวดหมู่สินค้า',
@@ -110,7 +110,7 @@ export const miniProjects: PortfolioProject[] = [
   {
     title: 'BotPanel',
     categories: ['DISCORD BOT', 'WEB PANEL', 'AUTOMATION'],
-    desc: '',
+    desc: 'แผงจัดการบอท Discord สำหรับตั้งค่า คำสั่ง และระบบออโตเมชัน',
     features: [],
     slides: [
       '/portfolio/botpanel/slide-1.png',
@@ -128,7 +128,7 @@ export const developerInfo: DeveloperProfile = {
   image: '/bkron-profile.png',
   frame: '/profile-frame.png',
   role: 'Full-stack Developer',
-  desc: 'ออกแบบ UI/UX พัฒนา Frontend & Backend ดูแลและส่งมอบงานให้คุณโดยตรง ทุกขั้นตอนอยู่ในมือคนเดียว — คุยตรง ไม่ผ่านคนกลาง แก้ไขเร็ว เข้าใจโจทย์ชัด',
+  desc: 'ออกแบบ UI/UX พัฒนา Frontend & Backend ดูแลและส่งมอบงานให้คุณโดยตรง ทุกรายละเอียดผ่านการติดต่อกับผู้พัฒนา',
   tags: ['UI/UX', 'Frontend', 'Backend', 'Full-stack']
 };
 
@@ -140,7 +140,7 @@ export const discordApplicationId = '1455511992218419297';
 export const discordClientId = '1455511992218419297';
 export const discordAppIcon = 'https://cdn.discordapp.com/icons/1475039241011724461/38e200934615d7c0e54319c111f92fdf.png?size=128';
 export const discordOAuthScopes = 'identify connections guilds messages.read webhook.incoming applications.builds.read role_connections.write';
-export const defaultDiscordOAuthUrl = 'https://discord.com/oauth2/authorize?client_id=1455511992218419297&response_type=code&redirect_uri=http%3A%2F%2Fzynibase.vercel.app%2F&integration_type=0&scope=identify+connections+guilds+messages.read+webhook.incoming+applications.builds.read+role_connections.write';
+export const defaultDiscordOAuthUrl = 'https://discord.com/oauth2/authorize?client_id=1455511992218419297&response_type=code&redirect_uri=http%3A%2F%2Fzynibase.vercel.app%2F&scope=identify%20connections%20guilds%20messages.read%20webhook.incoming%20applications.builds.read%20role_connections.write';
 
 export const discordServerConfig = {
   guildId: '1475039241011724461',
@@ -155,19 +155,18 @@ export const discordServerConfig = {
   }
 };
 
-
 export const socialLinks: SocialLink[] = [
   {
     label: 'Instagram',
     detail: '@q3bibi',
-    href: 'https://www.instagram.com/pluxkorn?igsh=cmY3bHQxcnFqN2Vp&utm_source=qr',
+    href: 'https://www.instagram.com/pluxkorn',
     action: 'Follow',
     icon: 'instagram'
   },
   {
     label: 'Facebook',
     detail: 'Aitsarawut Autarmat',
-    href: 'https://www.facebook.com/share/1D1uNmwfdi/?mibextid=wwXIfr',
+    href: 'https://www.facebook.com/',
     action: 'Follow',
     icon: 'facebook'
   }
