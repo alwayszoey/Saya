@@ -3,7 +3,7 @@ import { DeveloperProfile, PortfolioProject, ServiceItem, SocialLink, TeamHighli
 export const servicesData: ServiceItem[] = [
   {
     title: 'บริการรับทำเว็บไซต์ครบวงจร',
-    desc: 'ดูแลตั้งแต่การออกแบบ พัฒนา จนถึงเปิดใช้งานจริง พร้อมการดูแลหลังการขายและปรับปรุงตามความต้องการ',
+    desc: 'ดูแลตั้งแต่การออกแบบ พัฒนา จนถึงเปิดใช้งานจริง พร้อมการดูแลหลังกการขายและปรับปรุงตามความต้องการ',
     priceTiers: [
       { note: 'เริ่มต้นเพียง', price: '2,000 บาท' },
       { note: 'เว็บไซต์ขนาดใหญ่', price: '15,000 บาท' }
@@ -127,9 +127,9 @@ export const developerInfo: DeveloperProfile = {
   name: '480p',
   image: '/bkron-profile.png',
   frame: '/profile-frame.png',
-  role: 'Full-stack Developer',
-  desc: 'ออกแบบ UI/UX พัฒนา Frontend & Backend ดูแลและส่งมอบงานให้คุณโดยตรง ทุกรายละเอียดผ่านการติดต่อกับผู้พัฒนา',
-  tags: ['UI/UX', 'Frontend', 'Backend', 'Full-stack']
+  role: 'Bot Developer & Full-stack Developer',
+  desc: 'รับเขียนบอทสำหรับ Discord/Telegram และระบบออโตเมชัน ครบทั้งการออกแบบคำสั่ง การเชื่อมต่อ API การจัดการสิทธิ์ และการติดตั้งบนเซิร์ฟเวอร์ พร้อมการบำรุงรักษาและปรับแต่งตามความต้องการธุรกิจ',
+  tags: ['Discord Bot', 'Automation', 'Backend', 'Full-stack']
 };
 
 export const discordGuildId = '1475039241011724461';
