@@ -10,7 +10,7 @@ app.use(express.json());
 const DISCORD_CLIENT_ID = process.env.DISCORD_CLIENT_ID || '1455511992218419297';
 const DISCORD_CLIENT_SECRET = process.env.DISCORD_CLIENT_SECRET || '';
 const DISCORD_GUILD_ID = process.env.DISCORD_GUILD_ID || '1475039241011724461';
-const DISCORD_INVITE_CODE = process.env.DISCORD_INVITE_CODE || '';
+const DISCORD_INVITE_CODE = process.env.DISCORD_INVITE_CODE || 'ykav26jJTQ';
 const DISCORD_BOT_TOKEN = process.env.DISCORD_BOT_TOKEN || '';
 
 // In-memory cache for Discord server status (TTL: 30 seconds)
@@ -32,10 +32,10 @@ app.get('/api/discord/server', async (req, res) => {
   const defaultInvite = `https://discord.gg/${DISCORD_INVITE_CODE || DISCORD_GUILD_ID}`;
   let result = {
     guildId: DISCORD_GUILD_ID,
-    name: 'ZYNI',
-    onlineCount: 48,
-    memberCount: 390,
-    iconUrl: `https://cdn.discordapp.com/app-icons/${DISCORD_CLIENT_ID}/737f54cc426cdb59fbd5fe2177b15e82.png?size=128`,
+    name: 'ZYNI BASE',
+    onlineCount: 1,
+    memberCount: 7,
+    iconUrl: `https://cdn.discordapp.com/icons/${DISCORD_GUILD_ID}/38e200934615d7c0e54319c111f92fdf.png?size=128`,
     inviteUrl: defaultInvite,
     isRealtime: false
   };

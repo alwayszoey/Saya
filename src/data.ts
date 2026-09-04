@@ -133,25 +133,25 @@ export const developerInfo: DeveloperProfile = {
 };
 
 export const discordGuildId = '1475039241011724461';
-export const defaultDiscordInvite = 'https://discord.gg/1475039241011724461';
-export const discordInviteCode = '1475039241011724461';
+export const defaultDiscordInvite = 'https://discord.gg/ykav26jJTQ';
+export const discordInviteCode = 'ykav26jJTQ';
 
 export const discordApplicationId = '1455511992218419297';
 export const discordClientId = '1455511992218419297';
-export const discordAppIcon = 'https://cdn.discordapp.com/app-icons/1455511992218419297/737f54cc426cdb59fbd5fe2177b15e82.png?size=128';
+export const discordAppIcon = 'https://cdn.discordapp.com/icons/1475039241011724461/38e200934615d7c0e54319c111f92fdf.png?size=128';
 export const discordOAuthScopes = 'identify connections guilds messages.read webhook.incoming applications.builds.read role_connections.write';
 export const defaultDiscordOAuthUrl = 'https://discord.com/oauth2/authorize?client_id=1455511992218419297&response_type=code&redirect_uri=http%3A%2F%2Fzynibase.vercel.app%2F&integration_type=0&scope=identify+connections+guilds+messages.read+webhook.incoming+applications.builds.read+role_connections.write';
 
 export const discordServerConfig = {
   guildId: '1475039241011724461',
-  name: 'ZYNI',
-  defaultInviteUrl: 'https://discord.gg/1475039241011724461',
+  name: 'ZYNI BASE',
+  defaultInviteUrl: 'https://discord.gg/ykav26jJTQ',
   fallbackData: {
-    name: 'ZYNI',
-    onlineCount: 48,
-    memberCount: 390,
-    iconUrl: 'https://cdn.discordapp.com/app-icons/1455511992218419297/737f54cc426cdb59fbd5fe2177b15e82.png?size=128',
-    inviteUrl: 'https://discord.gg/1475039241011724461'
+    name: 'ZYNI BASE',
+    onlineCount: 1,
+    memberCount: 7,
+    iconUrl: 'https://cdn.discordapp.com/icons/1475039241011724461/38e200934615d7c0e54319c111f92fdf.png?size=128',
+    inviteUrl: 'https://discord.gg/ykav26jJTQ'
   }
 };
 
