@@ -11,9 +11,9 @@ export const servicesData: ServiceItem[] = [
     showHands: true
   },
   {
-    title: 'ดีไซน์ UI/UX สำหรับเว็บไซต์',
-    desc: 'ออกแบบ UI/UX สวยงาม ทันสมัย ใช้งานง่าย ลื่นไหล ตอบโจทย์ผู้ใช้จริง พร้อมยกระดับภาพลักษณ์ธุรกิจคุณให้โดดเด่น',
-    price: '1,000 บาท',
+    title: 'งานเขียน Bot ดิสคอร์ด',
+    desc: 'ทำระบบบอทดิสคอร์ด API&อื่นๆ อีกมากมายระบบดี ใช้งานได้จริงครบวงจร',
+    price: '100 บาท',
     showHands: false,
     splitLayout: true,
     uiUxBadges: true
@@ -159,7 +159,7 @@ export const discordServerConfig = {
 export const socialLinks: SocialLink[] = [
   {
     label: 'Instagram',
-    detail: '@pluxkorn',
+    detail: '@q3bibi',
     href: 'https://www.instagram.com/pluxkorn?igsh=cmY3bHQxcnFqN2Vp&utm_source=qr',
     action: 'Follow',
     icon: 'instagram'
