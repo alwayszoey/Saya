@@ -22,16 +22,16 @@ export default function Hero({ onNavigate }: HeroProps) {
 
       <div className="hero-body">
         <p className="hero-headline">
-          เบื่อขั้นตอนเยอะ? มาลุย{' '}
+          รับงานเขียนโค้ด Frontends & Backends{' '}
           <ShinyText
-            text='"งานเว็บไซต์คุณ"'
+            text='"ราคาเริ่มต้น 100 บาท"'
             className="highlight"
             color="#cccccc"
             shineColor="#ffffff"
             speed={2.5}
             spread={120}
           />{' '}
-          แบบคุยตรงกับ Dev
+          พูดคุยง่ายเป็นกันเอง
         </p>
 
         <p className="hero-desc">
