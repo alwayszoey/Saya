@@ -1,5 +1,6 @@
 import React from 'react';
 import ShinyText from './ShinyText';
+import StoreStatusBadge from './StoreStatusBadge';
 
 export interface HeroProps {
   onNavigate: (sectionId: string, e?: React.MouseEvent) => void;
@@ -16,6 +17,8 @@ export default function Hero({ onNavigate }: HeroProps) {
       <div className="hero-brand">
         <h1 className="hero-brand-title">Zyni</h1>
       </div>
+
+      <StoreStatusBadge variant="hero" />
 
       <div className="hero-body">
         <p className="hero-headline">

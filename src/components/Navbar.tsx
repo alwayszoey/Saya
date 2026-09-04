@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { navItems } from '../data';
+import StoreStatusBadge from './StoreStatusBadge';
+import DiscordAuthButton from './DiscordAuthButton';
 
 export interface NavbarProps {
   activeSection: string | null;
@@ -91,6 +93,8 @@ export default function Navbar({ activeSection, onNavigate, isReady }: NavbarPro
         </nav>
 
         <div className="navbar-actions">
+          <StoreStatusBadge variant="compact" />
+          <DiscordAuthButton />
           <a
             href="/"
             className="btn-contact"
@@ -126,6 +130,12 @@ export default function Navbar({ activeSection, onNavigate, isReady }: NavbarPro
           onClick={() => setMobileOpen(false)}
         />
         <nav className="nav-mobile-panel" id="mobile-nav">
+          <div className="nav-mobile-status">
+            <StoreStatusBadge variant="compact" />
+          </div>
+          <div className="nav-mobile-auth">
+            <DiscordAuthButton />
+          </div>
           {navItems.map((item) => {
             const isActive = activeSection === item.sectionId;
             return (

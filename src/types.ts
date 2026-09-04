@@ -50,9 +50,41 @@ export interface TeamHighlight {
 }
 
 export interface DiscordInviteData {
+  id?: string;
   name: string;
+  description?: string | null;
   onlineCount: number;
   memberCount: number;
   iconUrl: string | null;
+  bannerUrl?: string | null;
   inviteUrl: string;
+  inviteCode: string;
+  isRealtime: boolean;
+  lastUpdated?: Date;
 }
+
+export interface DiscordUser {
+  id: string;
+  username: string;
+  globalName?: string | null;
+  avatar?: string | null;
+  avatarUrl: string;
+  discriminator?: string;
+  banner?: string | null;
+  bannerColor?: string | null;
+  accentColor?: number | null;
+  verified?: boolean;
+  email?: string | null;
+  loginTime: string;
+}
+
+export interface DiscordAppInfo {
+  id: string;
+  name: string;
+  icon: string | null;
+  iconUrl: string;
+  botPublic: boolean;
+  clientId: string;
+  oauthUrl: string;
+}
+
